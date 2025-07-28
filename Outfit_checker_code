@@ -1,0 +1,24 @@
+# Outfit Checker 🧥👟
+
+top_color = "pink"
+bottom_color = "blue"
+shoes_on = True
+weather = "sunny"
+
+# Check if top and bottom match
+if top_color == bottom_color:
+    print("Your top and bottom match! 🔥")
+else:
+    print("Your outfit has contrast – slay the look! ✨")
+
+# Check if you're wearing shoes
+if shoes_on == True:
+    print("You're ready to go out! 👟")
+else:
+    print("Uh oh, don’t forget your shoes!")
+
+# Check the weather
+if weather != "rainy":
+    print("Great weather for your outfit! ☀️")
+else:
+    print("Maybe grab a jacket just in case 🌧️")
